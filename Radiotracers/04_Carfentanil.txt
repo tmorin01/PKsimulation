@@ -1,0 +1,25 @@
+Carfentanil
+Frost, 1989, JCBFM
+Occipital Cortex
+C-11
+*
+General
+Thalamus
+Frontal Lobe
+*
+*****1-Tissue Compartment*****
+general
+0	0
+*****2-Tissue Compartment*****
+thalamus
+0.107	0.201	0.201	0.06
+frontal
+0.108	0.201	0.382	0.217
+*****Other K-Values*****
+kp
+NaN
+kr
+0.4	0.15
+k_da
+NaN
+Default_TACs/CFN_NHP.tac

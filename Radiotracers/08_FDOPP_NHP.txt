@@ -1,0 +1,21 @@
+FDOPP_NHP
+Wey et al., 2013, JNM
+N/A
+F-18
+*
+General
+*
+*****1-Tissue Compartment*****
+general
+0	0
+*****2-Tissue Compartment*****
+general
+0.1	0.06	0.13	0.02
+*****Other K-Values*****
+kp
+NaN
+kr
+NaN
+k_da
+NaN
+Not Available

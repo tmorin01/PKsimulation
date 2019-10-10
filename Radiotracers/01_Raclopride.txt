@@ -1,0 +1,21 @@
+Raclopride
+Farde et al. 1989, JCBFM
+Cerebellum
+C-11
+*
+General
+*
+*****1-Tissue Compartment*****
+general
+0	0
+*****2-Tissue Compartment*****
+striatum
+0.18    0.37    0.38 0.11
+*****Other K-Values*****
+kp
+NaN
+kr
+0.18	0.326
+k_da
+13.5	25
+Not Available

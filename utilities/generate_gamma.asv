@@ -1,0 +1,29 @@
+function gamma_curve = generate_gamma(time, chal_times, tao, amplitude)
+
+gamma_curve = zeros(1,length(time));
+
+if ~isnan(chal_times) 
+    for m=1:length(chal_times)
+        first = chal_times(m)*2;
+        if (chal_times(m) + 100)*2 < length(time)
+            disp('here');
+            last = chal_times(m).*2 + 100;
+        else
+            last = time(end).*2;
+        end
+        disp(['first ' num2str(first)]);
+        disp(['last ' num2str(last)]);
+        
+        t = [0:0.5:50];
+        
+        pulse = amplitude(m).*(t./tao .* exp(-(t./tao)));
+        %plot(t,pulse);
+        assignin('base','pulse',pulse);
+        gamma_curve(1,first:last) = gamma_curve(1,first:last) + pulse(1,1:last-first+1);
+    end
+else 
+    return;
+end
+
+%plot(time, gamma_curve)
+

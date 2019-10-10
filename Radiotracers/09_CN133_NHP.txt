@@ -1,0 +1,21 @@
+CN133_NHP
+Wey et al., 2014, ???
+N/A
+C-11
+*
+General
+*
+*****1-Tissue Compartment*****
+general
+0	0
+*****2-Tissue Compartment*****
+general
+0.71	0.36	0.21	0.0104
+*****Other K-Values*****
+kp
+0.6	0.4	0.26	0.02
+kr
+NaN
+k_da
+NaN
+Not Available

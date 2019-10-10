@@ -1,0 +1,21 @@
+LY2795050_NHP
+Kim, Morris, et al., 2013, JNM
+N/A
+C-11
+*
+General
+*
+*****1-Tissue Compartment*****
+general
+0	0
+*****2-Tissue Compartment*****
+general
+0.1	0.06	0.13	0.02
+*****Other K-Values*****
+kp
+NaN
+kr
+NaN
+k_da
+NaN
+Default_TACs/LY279_NHP.tac

@@ -1,0 +1,23 @@
+Custom
+No Reference
+N/A
+C-11
+F-18
+O-15
+*
+General
+*
+*****1-Tissue Compartment*****
+general
+0	0
+*****2-Tissue Compartment*****
+general
+0	0	0	0
+*****Other K-Values*****
+kp
+0	0	0	0
+kr
+0	0
+k_da
+0	0
+Not Available

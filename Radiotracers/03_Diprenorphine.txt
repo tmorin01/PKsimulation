@@ -1,0 +1,43 @@
+Diprenorphine
+Jones, 1994, J. Neurosci Methods
+Occipital Cortex
+C-11
+F-18
+*
+General
+Thalamus
+Striatum
+Anterior Cortex
+Posterior Cortex
+Hippocampus
+Medulla
+Spinal Cord
+*
+*****1-Tissue Compartment*****
+general
+0	0
+*****2-Tissue Compartment*****
+general
+0.4	0.15	0.4	0.07
+thalamus
+1.25	0.247	0.0155	0.112
+striatum
+1.13	0.228	0.0153	0.124
+ant_cx
+1.27	0.313	0.0173	0.111
+post_cx
+1.3	0.308	0.0226	0.119
+hippocampus
+0.93	0.198	0.0275	0.154
+medulla
+1.15	0.247	0.0203	0.12
+spinal_cord
+0.8	0.209	0.0184	0.09
+*****Other K-Values*****
+kp
+0.36	0.19	0.48	0.08
+kr
+0.4	0.15
+k_da
+NaN
+Not Available

@@ -1,0 +1,25 @@
+Fallypride
+Christian et al., 2004
+Cerebellum
+F-18
+*
+General
+Striatum
+Frontal Lobe
+*
+*****1-Tissue Compartment*****
+general
+0	0
+*****2-Tissue Compartment*****
+striatum
+0.17	0.21	2.16	0.043
+frontal
+0.21	0.24	0.066	0.043
+*****Other K-Values*****
+kp
+0.17	0.21	1.08	0.043
+kr
+0.17	0.21
+k_da
+13.5	25
+Not Available
