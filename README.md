@@ -21,8 +21,9 @@ Positron Emission Tomography (PET) Neuroimaging is time consuming and expensive.
 ## Installation
 1. Download the code as a zip folder and unzip it in a new directory.  
   - _**Note:** Be sure that the unzipped folder is named_ `PKsimulation`
-2. Open MATLAB and add the `PKsimulation` folder and subfolders to the current path.
-3. Type `pk_sim` into the MATLAB command line and hit enter.  The GUI window should appear.
+2. Open MATLAB and add the `PKsimulation-master` folder and subfolders to the current path.
+3. Navigate into the `PKsimulation-master` folder.
+3. Type `pk_sim_gui` into the MATLAB command line and hit enter.  The GUI window should appear.
 
 ## File Structure
 - **AIF\_txts**
