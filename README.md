@@ -14,13 +14,12 @@
 Positron Emission Tomography (PET) Neuroimaging is time consuming and expensive.  Mathematical models and computer simulations can help scientists make more informed decisions about new experimental paradigms in PET, reducing costs and minimizing scan times.  However, many chemists, biologists, and neuroscientists who work with PET lack the training in Computer Science necessary to carry out such simulations.  The PK Simulation Tool was designed in Matlab with an easy-to-use GUI so that any scientist can perform their own pharmacokinetic PET simulations without ever typing a single line of code.  The tool comes with a collection of commonly used compartmental models, radiotracers, and infusion paradigms already built in.  For more advanced users, all features are completely customizable.
 
 ## System Requirements
-1. Mac OSX or more recent *(coming soon to Windows)*
+1. Mac OSX or more recent *(should probably work on Windows)*
   - _**Note:** Will probably work on Linux machines, but has not been sufficiently tested._
 2. MATLAB_R2015a or more recent
 
 ## Installation
-1. Download the code as a zip folder and unzip it in a new directory.  
-  - _**Note:** Be sure that the unzipped folder is named_ `PKsimulation`
+1. Download the code as a zip folder and unzip it in a new directory. (Click the green "Clone or download" button on this page, and "Download ZIP")
 2. Open MATLAB and add the `PKsimulation-master` folder and subfolders to the current path.
 3. Navigate into the `PKsimulation-master` folder.
 3. Type `pk_sim_gui` into the MATLAB command line and hit enter.  The GUI window should appear.
