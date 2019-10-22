@@ -68,7 +68,13 @@ guidata(hObject, handles);
 global Kbol num_kbol BI_Options Custom_Options global_tracers ax k2_prime;
 ax(1) = handles.subgraph1;
 ax(2) = handles.subgraph2;
-global_tracers = get_tracer_struct();
+%global_tracers = get_tracer_struct();
+%assignin('base','global_tracers_base',global_tracers);
+% Potential Bug Fix: October, 2019 - Jacob had trouble opening pk_sim_gui
+% on Windows platform... possibly due to inability to load text files on
+% windows platform... This fix loads a .mat file instead
+available_tracers = load('available_tracers.mat');
+global_tracers = available_tracers.global_tracers_base;
 Kbol = zeros(6);
 num_kbol = 1;
 BI_Options.file = 'Select a File';
